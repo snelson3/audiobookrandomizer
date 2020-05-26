@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private var initialized = false
     lateinit var booktitle : TextView
     private var mediaPlayer : MediaPlayer = MediaPlayer()
-    private val minutes = 1
+    private val minutes = 3
     private var timeForNewSong : Long = System.currentTimeMillis() + (minutes*60*1000)
     private var timeleft : Long = timeForNewSong / 1000
 
